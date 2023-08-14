@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Tax Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Sales Tax Calculator</h1>
+  <form id="taxForm">
+    <label for="zipInput">Enter your ZIP code:</label>
+    <input type="text" id="zipInput">
+    <br>
+    <label for="amountInput">Enter the amount:</label>
+    <input type="number" id="amountInput" step="0.01">
+    <br>
+    <button onclick = "calculateTax()">Calculate</button>
+  </form>
+  <div id="result">
+  </div>
+</body>
+</html>

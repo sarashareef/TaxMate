@@ -1,0 +1,22 @@
+
+body{  
+    background-color: aliceblue;
+}
+
+label{
+    line-height: 2;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+button{
+    margin-top: 10px; 
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+input{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}

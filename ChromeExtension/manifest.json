@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Sales Tax Calculator",
+    "version": "1.0.0",
+    "description": "Calculate sales tax based on state",
+    "author": "Sara Shareef", 
+    "action": {
+      "default_popup": "index.html",
+      "default title": "Sales Tax Calculator",
+      "default_icon": "icons8-calculator-100.png"
+    },
+    "permissions": ["https://api.api-ninjas.com/v1/salestax", "activeTab"],
+
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'"
+    }
+
+    
+  }
